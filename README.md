@@ -77,4 +77,7 @@ What's Cookin' Good Lookin' is an application that presents a user with an exten
   - Part One [Rubric and Project Specifications - Part 1](https://frontend.turing.edu/projects/whats-cookin-part-one.html)
   - Part Two [Rubric and Project Specifications - Part 2](https://frontend.turing.edu/projects/whats-cookin-part-two.html) 
 
-
+## Contributors
+Christine Rowland
+Jani Palomino 
+Emma Chory
