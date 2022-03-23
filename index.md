@@ -1,37 +1,83 @@
-## Welcome to GitHub Pages
+# What's Cookin' Good Lookin'
 
-You can use the [editor on GitHub](https://github.com/Fordo29/whats-cookin-good-lookin/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Project Overview
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+What's Cookin' Good Lookin' is an application that presents a user with an extensive list of recipes. Users can favorite recipes, save recipes to the 'Let's Cook' section, and delete from their favorites. All recipes include ingredients needed, directions, and cost. On page load, a random user will be generated and they can then interact with the page.
 
-### Markdown
+## See it in action!
+- Upon opening the application, the user is greeted and will see all recipes displayed. They may also search by recipe name or ingredient or filter by recipe type.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+![recipe-page](https://github.com/janitastic/whats-cookin-good-lookin/blob/main/github/Recipe-Page.gif)
 
-```markdown
-Syntax highlighted code block
+- User is able to click on a recipe thumbnail and view the detailed recipe. User may click on any recipe for more details such as directions, ingredients, and total   recipe cost.
 
-# Header 1
-## Header 2
-### Header 3
+![full-recipe-card](https://github.com/janitastic/whats-cookin-good-lookin/blob/main/github/Full-Recipe-Card.gif)
 
-- Bulleted
-- List
+- From within the recipe, the user may add a recipe to favorites or they can add to cook later. The User may then click on Favorites or Let's Cook to view their saved recipes.
 
-1. Numbered
-2. List
+![adding](https://github.com/janitastic/whats-cookin-good-lookin/blob/main/github/Adding-to-Favorites-and-to-Cook.gif)
 
-**Bold** and _Italic_ and `Code` text
+- User may also search for a recipe by name or ingredient within the Favorites View. They can also filter by recipe type and can clear these filters to see all favorite recipes displayed. 
 
-[Link](url) and ![Image](src)
-```
+![filters-favs](https://github.com/janitastic/whats-cookin-good-lookin/blob/main/github/Filtering-Favorites.gif)
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+- On the favorite recipe view they can delete recipes. 
 
-### Jekyll Themes
+![deleting-favs](https://github.com/janitastic/whats-cookin-good-lookin/blob/main/github/Deleting-Favorites.gif)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Fordo29/whats-cookin-good-lookin/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+- User is be able to see the ingredients in their pantry.
 
-### Support or Contact
+![view-pantry](https://github.com/janitastic/whats-cookin-good-lookin/blob/main/github/View-Pantry.gif)
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+- User is able to click on a recipe to determine what ingredients they are missing and add them to their pantry.
+
+![add-to-pantry](https://github.com/janitastic/whats-cookin-good-lookin/blob/main/github/Add-To-Pantry.gif)
+
+- A user can delete a recipe from their to cook section after they have cooked it.
+
+![delete-from-pantry](https://github.com/janitastic/whats-cookin-good-lookin/blob/main/github/Remove-From-Pantry.gif)
+
+- The application is tablet and mobile friendly.
+
+![mobile-friendly](https://github.com/janitastic/whats-cookin-good-lookin/blob/main/github/Mobile-Friendly.gif)
+
+- We're proud to share the the application is also fully tab accessible with a 100% Lighthouse Accessibility Score.
+
+![tab-friendly](https://github.com/janitastic/whats-cookin-good-lookin/blob/main/github/Tab-Friendly.gif)
+![lighthouse-score](https://github.com/janitastic/whats-cookin-good-lookin/blob/main/github/Lighthouse-Score.png)
+
+
+## Installation and Setup:
+**To navigate the website live, a local server download is required.**
+  1. Clone the necessary server and API [here](https://github.com/turingschool-examples/whats-cookin-api)
+  2. In the command line, `cd` into the directory and run `npm install` or `npm i`.
+  3. After the install is completely, run `npm start`.
+
+**Then clone down this repository**
+  1. In your command line, `cd` into your local directory and clone down this repository -<br>
+      `git@github.com:janitastic/whats-cookin-good-lookin.git`
+  2. Install the necessary package dependencies - <br>
+      `npm install`
+  3. Run the command `npm start` 
+  4. With both the server running and this package, and visit `http://localhost:8080/` in your browser.
+
+## Technologies Used
+  - JavaScript
+  - HTML, CSS
+  - Node.js
+  - Mocha and Chai
+  - Webpack
+
+## Future Goals
+  - Add more elements to user profile such as profile photo and comments on recipes
+  - User log in page
+  - Ability to create custom recipes
+
+## Rubric
+  - Part One [Rubric and Project Specifications - Part 1](https://frontend.turing.edu/projects/whats-cookin-part-one.html)
+  - Part Two [Rubric and Project Specifications - Part 2](https://frontend.turing.edu/projects/whats-cookin-part-two.html) 
+
+## Contributors
+ - [Christine Rowland](https://github.com/Fordo29)
+ - [Jani Palomino](https://github.com/janitastic) 
+ - [Emma Chory](https://github.com/Echory)
